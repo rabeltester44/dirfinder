@@ -6,8 +6,8 @@ import aiohttp
 from aiohttp import ClientSession
 import time
 import socket
-print("\n\033[32;1m# Upload Dir Finder by Unknown45\033[0m")
-print("\033[32;1mGithub : https://github/whoami-45\n\033[0m")
+print("\n\033[32;1m# Upload Dir Finder by reapers\033[0m")
+print("\033[32;1mGithub : https://github/rabeltester44\n\033[0m")
 target = input("Url: \33[1;0m")
 print("")
 #Basic filter of input
@@ -47,7 +47,7 @@ async def fetch(url, session):
 async def run():
     url = target + "{}"
     tasks = []
-    admin_list = open('findf.txt', 'r')
+    admin_list = open('find.txt', 'r')
     paths = []
     for path in admin_list:
         path = path.replace('\n','')
